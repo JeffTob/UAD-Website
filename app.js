@@ -1,22 +1,23 @@
 const express = require('express');
-const bodyParser = require('body-parser');
-const multer = require('multer');
-const path = require('path');
-
-const port = process.env.PORT || 3000;
 const app = express();
-app.set('view engine', 'ejs');
-
-// Serve static files in the "public" directory
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static('public'));
-
-app.get('/', (req, res) => {
-  res.render('index');
+const path = require('path');
+const router = express.Router();
+ 
+router.get('/',function(req,res){
+  res.sendFile(path.join(__dirname+'/index.html'));
+  //__dirname : It will resolve to your project folder.
 });
-
-// Start the server
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
+ 
+router.get('/about',function(req,res){
+  res.sendFile(path.join(__dirname+'/about.html'));
 });
-
+ 
+router.get('/sitemap',function(req,res){
+  res.sendFile(path.join(__dirname+'/sitemap.html'));
+});
+ 
+//add the router
+app.use('/', router);
+app.listen(process.env.port || 3000);
+ 
+console.log('Running at Port 3000');
