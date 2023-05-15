@@ -1,0 +1,338 @@
+body {
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 9pt;
+    margin-top: 0.5in;
+    margin-bottom: 0.5in;
+    margin-left: 0.5in;
+    margin-right: 0.5in;
+  }
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.2in;
+  }
+
+  .header__left {
+    font-weight: bold;
+  }
+
+  .header__right {
+    font-size: 8pt;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 0.2in;
+  }
+
+  .footer__left {
+    font-weight: bold;
+    margin-bottom: 0.1in;
+  }
+
+  .footer__right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    font-size: 8pt;
+  }
+
+  .footer__right span {
+    margin-bottom: 0.1in;
+  }
+
+  .page {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.2in;
+  }
+
+  .column {
+    width: 3.66in;
+    margin-right: 0.17in;
+  }
+
+  .column__wide {
+    width: 7.5in;
+  }
+
+  .column__content {
+    max-width: 45picas;
+    line-height: 1.5;
+    text-align: justify;
+  }
+
+  .section__header {
+    margin-top: 0.4in;
+    margin-bottom: 0.2in;
+  }
+
+  .section__header h1, .section__header h2 {
+    margin: 0;
+  }
+
+  .section__header h1 {
+    font-size: 16pt;
+    color: #777;
+    border-bottom: 1px solid #777;
+    padding-bottom: 0.1in;
+  }
+
+  .section__header h2 {
+    font-size: 14pt;
+    color: black;
+    border-bottom: 1px solid black;
+    padding-bottom: 0.1in;
+  }
+
+  .report__title {
+    font-size: 20pt;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0.2in;
+  }
+
+  .title__add {
+    font-size: 12pt;
+    text-align: center;
+    margin-bottom: 0.4in;
+  }
+
+  .summary__hd {
+    font-size: 14pt;
+    font-weight: bold;
+    margin-top: 0.4in;
+    margin-bottom: 0.2in;
+  }
+  * {
+          margin: 0;
+          padding: 0;
+          text-indent: 0;
+      }
+
+      .s1 {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 32pt;
+      }
+
+      h2 {
+          color: #231F20;
+          font-family: Tahoma, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 12pt;
+      }
+
+      h1 {
+          color: #231F20;
+          font-family: Tahoma, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 14pt;
+      }
+
+      h4 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      .p,
+      p {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 9pt;
+          margin: 0pt;
+      }
+
+      .s2 {
+          color: black;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 1pt;
+      }
+
+      .s3 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      .s4 {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      .s5 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 10pt;
+      }
+
+      .s6 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s7 {
+          color: #231F20;
+          font-family: "Segoe UI Symbol", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 12pt;
+      }
+
+      .s8 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      .s9 {
+          color: #939598;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: italic;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      h3 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 10pt;
+      }
+
+      .s10 {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: italic;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 9pt;
+      }
+
+      .s11 {
+          color: #FFF;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s12 {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s13 {
+          color: #FFF;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s14 {
+          color: #231F20;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s15 {
+          color: #77787B;
+          font-family: Calibri, sans-serif;
+          font-style: normal;
+          font-weight: bold;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      .s16 {
+          color: #231F20;
+          font-family: "Trebuchet MS", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 8pt;
+      }
+
+      li {
+          display: block;
+      }
+
+      #l1 {
+          padding-left: 0pt;
+      }
+
+      #l1>li>*:first-child:before {
+          content: "□ ";
+          color: #231F20;
+          font-family: "Segoe UI Symbol", sans-serif;
+          font-style: normal;
+          font-weight: normal;
+          text-decoration: none;
+          font-size: 12pt;
+      }
+
+      table,
+      tbody {
+          vertical-align: top;
+          overflow: visible;
+      }
+      hr {
+        position: relative;
+        top: 1px;
+        border: none;
+        height: 5px;
+        background: black;
+        margin-bottom: 10px;
+    }
