@@ -7,6 +7,11 @@ router.get('/',function(req,res){
   res.sendFile(path.join(__dirname+'/design.html'));
   //__dirname : It will resolve to your project folder.
 });
+
+app.get('/pdf', (req, res) => {
+  const filePath = path.join(__dirname,'/full_report_style_guide.pdf');
+  res.sendFile(filePath);
+});
  
 router.get('/about',function(req,res){
   res.sendFile(path.join(__dirname+'/about.html'));
